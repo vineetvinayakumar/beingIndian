@@ -1,0 +1,93 @@
+body{
+	background-color: #eeeeee;
+}
+
+.row{
+	margin-left:0px !important;
+	margin-right: 0px !important;
+}
+.pageHeader{
+	padding: 0.1em 0 0.7em 0;
+	background-color: #187efd;
+}
+.pageTitle{
+	font-size: 2.2em;
+	color: #ffffff;
+	font-weight: bolder;
+	text-transform:uppercase ;
+}
+
+.sliderInfo{
+	position: relative;
+    top: -38px;
+	margin: 0 1em;
+    padding: 1em;
+    background-color: #ffffff;
+	-webkit-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 12px 1px rgba(0,0,0,0.75);
+}
+
+.slider-breadcrumb{
+	text-transform:uppercase;
+	color: #7b7b7b;
+	font-size: 0.8em;
+}
+
+.breadcrumbCategory{
+	color:#ea3e10;
+}
+
+.politicsCategory{
+	color: #10b9ea;
+}
+
+.slider-title{
+	font-size: 1.5em;
+	font-weight: 800;
+	text-transform: capitalize;
+}
+
+.slider-description{
+	font-size: 1.2em;
+	color: #7b7b7b;
+}
+
+.main-carousel > .owl-stage-outer{
+	min-height: 350px;
+}
+
+.featured{
+	margin-top: -27px;
+	color: #7b7b7b;
+	font-size: 1.1em;
+}
+
+.sectionHeading{
+	font-size: 2.2em;
+	font-weight: 800;
+}
+
+.trending{
+	background-color: #ffa000;
+	color: #ffffff;
+}
+
+/* Section Icons Start */
+
+.sectionIcons{
+	width: 60px;
+    height: 59px;
+    background-image: url(../images/sprite.png);
+    background-repeat: no-repeat;
+    float: left;
+    z-index: 1;
+}
+
+.trendingIcon{
+	background-position: 8px -328px;
+    background-color: #ffa000;
+    position: relative;
+}
+
+/* Section Icons End */
